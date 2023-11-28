@@ -73,15 +73,20 @@ nav img {
   cursor: pointer;
 }
 
+.right #nav a {
+  text-decoration: none;
+  color: white;
+}
+
 .right #nav div {
   padding: 5px 10px;
 }
 
-.right #nav div:first-child {
+.right #nav div:first-child a {
   color: #14bf98;
 }
 
-.right #nav div:hover {
+.right #nav div a:hover {
   color: #14bf98;
   transition: all 0.3s ease-in-out;
 }
@@ -110,6 +115,7 @@ nav img {
 
 .img-div:hover img {
   filter: brightness(0%) invert(100%);
+  cursor: pointer;
 }
 
 .img-div:hover i {
@@ -160,6 +166,7 @@ nav img {
   background-color: transparent;
   transition: all 0.5s ease-in-out;
   color: #14bf98;
+  cursor: pointer;
 }
 
 /* PAGE-2 */
@@ -398,6 +405,7 @@ nav img {
 .btn:hover {
   background-color: transparent;
   color: #14bf98;
+  cursor: pointer;
 }
 
 /* PAGE-4 */
@@ -1203,7 +1211,7 @@ textarea {
   padding: 1.5rem 0 1.5rem 1.2rem;
   background-color: #ffffff;
   color: #787976;
-  border: 1px solid #f1eded;
+  border: 2px solid #cfcaca;
   border-radius: 3px;
   outline: none;
   resize: none;
